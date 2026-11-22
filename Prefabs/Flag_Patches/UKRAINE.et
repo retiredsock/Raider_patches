@@ -1,0 +1,29 @@
+GameEntity : "{FBE8D2BB07B1B041}Prefabs/Rectangle_Patches/Rectangle_DemonHunter_Patch_Red.et" {
+ ID "657C17E446464A1E"
+ components {
+  InventoryItemComponent "{657C17E446464A0E}" {
+   Attributes SCR_ItemAttributeCollection "{657C17E446464A0D}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{657C17E446464A0A}" {
+     Name "Ukraine"
+     Description "Task Force Raider"
+    }
+   }
+  }
+  MeshObject "{657C17E446464A3F}" {
+   Materials {
+    MaterialAssignClass "{658A2C56FD6F2BD4}" {
+     SourceMaterial "Mat_Patch"
+     AssignedMaterial "{79C13D50C1FD0914}Assets/Flag Patches/Data/UKRAINE.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{657C17E446464A39}" {
+   WornMaterialsOverride {
+    "{79C13D50C1FD0914}Assets/Flag Patches/Data/UKRAINE.emat"
+   }
+   ItemMaterialsOverride {
+    "{79C13D50C1FD0914}Assets/Flag Patches/Data/UKRAINE.emat"
+   }
+  }
+ }
+}

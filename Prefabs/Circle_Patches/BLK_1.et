@@ -1,0 +1,29 @@
+GameEntity : "{31B8D047E27D9FF1}Prefabs/Circle_Patches/Patch_Reaper_Base.et" {
+ ID "657B0C0A4C1F9EDE"
+ components {
+  InventoryItemComponent "{657B0C0AEEF49C10}" {
+   Attributes SCR_ItemAttributeCollection "{657B0C0AEEF49C16}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{657B0C0AEEF49F14}" {
+     Name "Snake Skull"
+     Description "Snake Skull"
+    }
+   }
+  }
+  MeshObject "{657B0C0AEEEB7DCB}" {
+   Materials {
+    MaterialAssignClass "{6ADC5A982B791730}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{7C01D5EBE5E54A29}Assets/Circle_Patches/Data/BLK_1.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{657B0C0AEEEB7D3C}" {
+   WornMaterialsOverride {
+    "{7C01D5EBE5E54A29}Assets/Circle_Patches/Data/BLK_1.emat"
+   }
+   ItemMaterialsOverride {
+    "{7C01D5EBE5E54A29}Assets/Circle_Patches/Data/BLK_1.emat"
+   }
+  }
+ }
+}

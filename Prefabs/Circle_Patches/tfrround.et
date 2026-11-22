@@ -1,0 +1,29 @@
+GameEntity : "{31B8D047E27D9FF1}Prefabs/Circle_Patches/Patch_Reaper_Base.et" {
+ ID "657B0C0A4C1F9EDE"
+ components {
+  InventoryItemComponent "{657B0C0AEEF49C10}" {
+   Attributes SCR_ItemAttributeCollection "{657B0C0AEEF49C16}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{657B0C0AEEF49F14}" {
+     Name "Task Force Raider"
+     Description "Task Force Raider"
+    }
+   }
+  }
+  MeshObject "{657B0C0AEEEB7DCB}" {
+   Materials {
+    MaterialAssignClass "{6ADC5AA4F0DFF766}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{8FFDF0EC3F6EC972}Assets/Circle_Patches/Data/tfrround.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{657B0C0AEEEB7D3C}" {
+   WornMaterialsOverride {
+    "{8FFDF0EC3F6EC972}Assets/Circle_Patches/Data/tfrround.emat"
+   }
+   ItemMaterialsOverride {
+    "{8FFDF0EC3F6EC972}Assets/Circle_Patches/Data/tfrround.emat"
+   }
+  }
+ }
+}
