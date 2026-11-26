@@ -1,0 +1,4 @@
+MatPBRBasic {
+ Color 0.474 0.474 0.474 1
+ BCRMap "{D297563D417FE722}Assets/Circle_Patches/Data/blackdevils.edds"
+}
